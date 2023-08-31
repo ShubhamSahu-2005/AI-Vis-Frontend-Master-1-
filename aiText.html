@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Detection</title>
+    <link rel="icon" href="./logo.jpg" type="image/icon type" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <img src="./Artificial-Intelligence-Logo.svg" height="100" width="100" alt="Ai">
+          <a class="navbar-brand" href="#">AI-VisDetect</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <!-- Add 'justify-content-end' class here -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">How We Do It?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Features</a>
+              </li>
+              <li class="nav-item">
+               
+              </li>
+            </nav><section class="text-white-600 body-font">
+              <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                  <img class="object-cover object-center rounded" alt="hero" src="./getimg_ai_img-01XMrttCBDB7MCUyZH7Ya.png">
+                </div>
+                <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                  <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white-900">Using AI Generated Texts
+                    <br class="hidden lg:inline-block">
+                  </h1>
+                  <p class="mb-8 leading-relaxed">While AI can create realistic images and sounds, it may not be able to capture
+                    the nuances and emotions that are often conveyed through traditional art forms. Another potential
+                     disadvantage of AI-generated art is the ethical implications of using machines to create art. Some 
+                     critics argue that using AI to produce art devalues the role of human creativity and skill in the
+                      creation of art, and that it may lead to the automation of other creative fields.</p>
+
+                    
+                  </div>
+                </div>
+              </div>
+            </section>
+           
+                
+
+
+               
+              </div>
+              <div class="px-4 py-5 my-5 text-center">
+                <h1 class="display-5 fw-bold">Detect whether the text is real or AI generated</h1>
+                <div class="col-lg-6 mx-auto">
+                    <textarea   id="textInput" cols="50" placeholder="Enter the text to see whether it is AI generated or not..." oninput="adjustTextAreaHeight()"></textarea>
+                    <br/>
+                    <p class = "textResult"></p>
+                    <button class="ui-btn">
+                      <span>
+                        Predict 
+                      </span>
+                    </button>
+             
+            </section>
+            <script src="script.js"></script>
+            <script
+              src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+              crossorigin="anonymous"
+            ></script>
+    
+            
+
+
+
+    
+</body>
+</html>
